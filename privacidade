@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade — Aliança Restaurada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { --wine:#6b1f2a; --wine-deep:#4a1219; --gold:#c9a84c; --cream:#fdf6ee; --warm-gray:#8a7968; --text:#2c1a0e; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--text);line-height:1.8;}
+.brand{text-align:center;padding:20px 24px;border-bottom:1px solid rgba(201,168,76,.2);}
+.brand-name{font-family:'Cormorant Garamond',serif;font-size:13px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--wine);display:flex;align-items:center;justify-content:center;gap:14px;}
+.brand-name::before,.brand-name::after{content:'';width:36px;height:1px;background:var(--gold);display:block;}
+.content{max-width:720px;margin:0 auto;padding:52px 24px 80px;}
+h1{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:700;color:var(--wine-deep);margin-bottom:8px;}
+.updated{font-size:.82rem;color:var(--warm-gray);margin-bottom:36px;}
+h2{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:700;color:var(--wine-deep);margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid rgba(201,168,76,.2);}
+p{font-size:.92rem;color:#5a4a3a;margin-bottom:14px;}
+ul{margin:0 0 14px 20px;}
+li{font-size:.92rem;color:#5a4a3a;margin-bottom:6px;}
+a{color:var(--wine);}
+footer{background:var(--wine-deep);color:rgba(255,255,255,.4);text-align:center;padding:24px;font-size:12px;}
+footer a{color:rgba(255,255,255,.5);}
+</style>
+</head>
+<body>
+<div class="brand"><div class="brand-name">Aliança Restaurada</div></div>
+<div class="content">
+<h1>Política de Privacidade</h1>
+<div class="updated">Última atualização: Janeiro de 2025</div>
+
+<p>A <strong>Aliança Restaurada</strong> está comprometida em proteger sua privacidade. Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações pessoais quando você utiliza nosso site e adquire nossos produtos digitais.</p>
+
+<h2>1. Informações que Coletamos</h2>
+<p>Podemos coletar as seguintes informações:</p>
+<ul>
+  <li>Nome e endereço de e-mail, quando fornecidos voluntariamente por meio de formulários</li>
+  <li>Dados de pagamento, processados exclusivamente pela plataforma Kiwify (não armazenamos dados de cartão)</li>
+  <li>Dados de navegação, como endereço IP, tipo de navegador e páginas visitadas, coletados automaticamente</li>
+  <li>Informações fornecidas ao entrar em contato conosco</li>
+</ul>
+
+<h2>2. Como Usamos suas Informações</h2>
+<p>Utilizamos suas informações para:</p>
+<ul>
+  <li>Entregar os produtos digitais adquiridos</li>
+  <li>Enviar comunicações relacionadas ao seu pedido</li>
+  <li>Enviar conteúdos relevantes por e-mail, caso você tenha se cadastrado voluntariamente (com possibilidade de cancelamento a qualquer momento)</li>
+  <li>Melhorar nossos produtos e serviços</li>
+  <li>Cumprir obrigações legais</li>
+</ul>
+
+<h2>3. Compartilhamento de Dados</h2>
+<p>Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto:</p>
+<ul>
+  <li>Plataformas de pagamento (Kiwify) para processar transações</li>
+  <li>Ferramentas de e-mail marketing para envio de comunicações (mediante seu consentimento)</li>
+  <li>Quando exigido por lei ou ordem judicial</li>
+</ul>
+
+<h2>4. Cookies e Tecnologias de Rastreamento</h2>
+<p>Nosso site pode utilizar cookies e pixels de rastreamento (como o Pixel do Facebook/Meta) para fins de análise e publicidade. Você pode configurar seu navegador para recusar cookies, mas isso pode afetar a funcionalidade do site.</p>
+
+<h2>5. Segurança dos Dados</h2>
+<p>Adotamos medidas de segurança adequadas para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+
+<h2>6. Seus Direitos (LGPD)</h2>
+<p>Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem direito a:</p>
+<ul>
+  <li>Confirmar a existência de tratamento dos seus dados</li>
+  <li>Acessar seus dados pessoais</li>
+  <li>Corrigir dados incompletos ou incorretos</li>
+  <li>Solicitar a exclusão dos seus dados</li>
+  <li>Cancelar o recebimento de e-mails a qualquer momento</li>
+</ul>
+
+<h2>7. Retenção de Dados</h2>
+<p>Mantemos seus dados pelo tempo necessário para cumprir as finalidades descritas nesta política ou conforme exigido por lei.</p>
+
+<h2>8. Contato</h2>
+<p>Para exercer seus direitos ou tirar dúvidas sobre esta política, entre em contato pelo e-mail: <a href="mailto:contato@aliancaRestaurada.com.br">contato@aliancaRestaurada.com.br</a></p>
+
+<h2>9. Alterações nesta Política</h2>
+<p>Podemos atualizar esta Política de Privacidade periodicamente. Recomendamos que você a revise regularmente. Alterações significativas serão comunicadas por e-mail aos cadastrados.</p>
+</div>
+<footer>
+  <strong style="color:rgba(255,255,255,.65)">Aliança Restaurada</strong> · © 2025 · Todos os direitos reservados<br>
+  <a href="index.html">Início</a> · <a href="termos.html">Termos de Uso</a>
+</footer>
+</body>
+</html>
