@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termos de Uso — Aliança Restaurada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root { --wine:#6b1f2a; --wine-deep:#4a1219; --gold:#c9a84c; --cream:#fdf6ee; --warm-gray:#8a7968; --text:#2c1a0e; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--text);line-height:1.8;}
+.brand{text-align:center;padding:20px 24px;border-bottom:1px solid rgba(201,168,76,.2);}
+.brand-name{font-family:'Cormorant Garamond',serif;font-size:13px;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--wine);display:flex;align-items:center;justify-content:center;gap:14px;}
+.brand-name::before,.brand-name::after{content:'';width:36px;height:1px;background:var(--gold);display:block;}
+.content{max-width:720px;margin:0 auto;padding:52px 24px 80px;}
+h1{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:700;color:var(--wine-deep);margin-bottom:8px;}
+.updated{font-size:.82rem;color:var(--warm-gray);margin-bottom:36px;}
+h2{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:700;color:var(--wine-deep);margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid rgba(201,168,76,.2);}
+p{font-size:.92rem;color:#5a4a3a;margin-bottom:14px;}
+ul{margin:0 0 14px 20px;}
+li{font-size:.92rem;color:#5a4a3a;margin-bottom:6px;}
+a{color:var(--wine);}
+footer{background:var(--wine-deep);color:rgba(255,255,255,.4);text-align:center;padding:24px;font-size:12px;}
+footer a{color:rgba(255,255,255,.5);}
+</style>
+</head>
+<body>
+<div class="brand"><div class="brand-name">Aliança Restaurada</div></div>
+<div class="content">
+<h1>Termos de Uso</h1>
+<div class="updated">Última atualização: Janeiro de 2025</div>
+
+<p>Ao acessar e utilizar o site <strong>Aliança Restaurada</strong> e adquirir nossos produtos digitais, você concorda com os presentes Termos de Uso. Leia com atenção antes de prosseguir.</p>
+
+<h2>1. Sobre os Produtos</h2>
+<p>Os produtos comercializados pela Aliança Restaurada são materiais digitais de natureza educacional e de desenvolvimento pessoal. Não se tratam de terapia, aconselhamento psicológico ou tratamento médico. Em situações de crise grave, recomendamos a busca por um profissional qualificado.</p>
+
+<h2>2. Acesso e Licença de Uso</h2>
+<p>Ao adquirir um produto digital da Aliança Restaurada, você recebe uma licença de uso pessoal, intransferível e não exclusiva. É expressamente proibido:</p>
+<ul>
+  <li>Reproduzir, copiar ou distribuir o conteúdo para terceiros</li>
+  <li>Revender ou sublicenciar o produto</li>
+  <li>Compartilhar o link de acesso com outras pessoas</li>
+  <li>Utilizar o conteúdo para fins comerciais sem autorização prévia</li>
+</ul>
+
+<h2>3. Política de Reembolso</h2>
+<p>Oferecemos garantia de satisfação de <strong>7 dias corridos</strong> a partir da data da compra. Caso não esteja satisfeito, basta enviar um e-mail para <a href="mailto:contato@aliancaRestaurada.com.br">contato@aliancaRestaurada.com.br</a> solicitando o reembolso. O valor será devolvido integralmente, sem questionamentos.</p>
+<p>Após o prazo de 7 dias, não serão aceitas solicitações de reembolso.</p>
+
+<h2>4. Isenção de Responsabilidade</h2>
+<p>Os resultados obtidos com o uso dos nossos produtos podem variar de acordo com o histórico, dedicação e circunstâncias individuais de cada pessoa. A Aliança Restaurada não garante resultados específicos. Os depoimentos e exemplos apresentados são ilustrativos e não representam resultados típicos garantidos.</p>
+
+<h2>5. Propriedade Intelectual</h2>
+<p>Todo o conteúdo disponibilizado pela Aliança Restaurada — incluindo textos, imagens, metodologias e materiais digitais — é protegido por direitos autorais. É vedada qualquer reprodução sem autorização expressa por escrito.</p>
+
+<h2>6. Limitação de Responsabilidade</h2>
+<p>A Aliança Restaurada não se responsabiliza por decisões tomadas com base no conteúdo dos seus materiais, nem por quaisquer danos diretos ou indiretos decorrentes do uso ou incapacidade de uso dos produtos.</p>
+
+<h2>7. Alterações nos Termos</h2>
+<p>Reservamo-nos o direito de modificar estes Termos de Uso a qualquer momento. As alterações entram em vigor imediatamente após a publicação no site. O uso continuado do site após as alterações implica aceitação dos novos termos.</p>
+
+<h2>8. Legislação Aplicável</h2>
+<p>Estes Termos de Uso são regidos pelas leis brasileiras. Fica eleito o foro da comarca do domicílio do consumidor para dirimir quaisquer controvérsias.</p>
+
+<h2>9. Contato</h2>
+<p>Dúvidas sobre estes termos: <a href="mailto:contato@aliancaRestaurada.com.br">contato@aliancaRestaurada.com.br</a></p>
+</div>
+<footer>
+  <strong style="color:rgba(255,255,255,.65)">Aliança Restaurada</strong> · © 2025 · Todos os direitos reservados<br>
+  <a href="index.html">Início</a> · <a href="privacidade.html">Política de Privacidade</a>
+</footer>
+</body>
+</html>
