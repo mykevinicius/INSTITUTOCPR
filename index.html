@@ -492,12 +492,41 @@ footer a { color: rgba(255,255,255,.55); text-decoration: underline; }
 </div>
 
 <script>
-function handleSubmit(e) {
+async function handleSubmit(e) {
   e.preventDefault();
-  const nome = e.target.nome.value;
-  const email = e.target.email.value;
-  // Redirect to thank you page with name
-  window.location.href = `obrigado.html?nome=${encodeURIComponent(nome)}&email=${encodeURIComponent(email)}`;
+  const btn = e.target.querySelector('button[type="submit"]');
+  const nome = e.target.nome.value.trim();
+  const email = e.target.email.value.trim();
+
+  // Disable button and show loading
+  btn.disabled = true;
+  btn.textContent = 'Enviando...';
+
+  try {
+    // Submit to MailerLite
+    const formData = new FormData();
+    formData.append('fields[name]', nome);
+    formData.append('fields[email]', email);
+    formData.append('ml-submit', '1');
+    formData.append('anticsrf', 'true');
+
+    await fetch('https://assets.mailerlite.com/jsonp/2243641/forms/183789820917581013/subscribe', {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors'
+    });
+  } catch(err) {
+    // Even if fetch fails, continue — don't block the user
+    console.log('MailerLite:', err);
+  }
+
+  // Open PDF download
+  window.open('https://raw.githubusercontent.com/mykevinicius/INSTITUTOCPR/main/diagnostico-do-casamento.pdf', '_blank');
+
+  // Redirect to thank you page
+  setTimeout(() => {
+    window.location.href = `obrigado.html?nome=${encodeURIComponent(nome)}&email=${encodeURIComponent(email)}`;
+  }, 800);
 }
 </script>
 </body>
